@@ -1,5 +1,4 @@
-import React from 'react'
-import imageMockup from "/Users/bigmac/Desktop/Programming/Grazac/Assignment_New/Assignment/src/assets/images/image-mockups.png"
+import imageMockup from "../assets/images/image-mockups.png"
 const Hero = () => {
   return (
     <div className='bg-[#fafafa]'>
@@ -20,7 +19,7 @@ const Hero = () => {
          
         </div>
         
-        <div className='mt-15 bg-cover bg-[url("/Users/bigmac/Desktop/Programming/Grazac/Assignment_New/Assignment/src/assets/images/bg-intro-desktop.svg")]'>
+        <div className='mt-15 bg-cover bg-[url("../assets/images/bg-intro-desktop.svg")]'>
           <img
             className="w-[500px] -top-5 z-30"
             src={imageMockup}
